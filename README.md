@@ -1,17 +1,16 @@
 # teamtodo
 
-A new Flutter project.
-
+Team todo is a simple efficient and realtime Todo app
 ## Getting Started
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
+```sh
+cp config/.env.example config/.env;
+cp config/.env.example config/prod.env;
+flutter pub get;
+flutter packages pub run build_runner build --delete-conflicting-outputs;
+flutter gen-l10n
+# git config core.hooksPath .hooks
+```
 ## Assets
 
 The `assets` directory houses images, fonts, and any other files you want to

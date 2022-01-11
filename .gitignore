@@ -44,3 +44,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+ios/build
+
+.env
+prod.env
+*.g.dart
+*.mocks.dart
+.fvm/
